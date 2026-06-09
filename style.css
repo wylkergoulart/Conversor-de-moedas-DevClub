@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+
+    background-color: #8A51FC;
+
+}
+
+.logo {
+
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+.container {
+
+    background-color: #F4F4F4;
+    width: 375px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 24px 44px 23px;
+}
+
+label {
+
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+select {
+
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+    appearance: none;
+    border: solid 1px #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    padding-left: 16px;
+    margin-bottom: 24px;
+
+}
+
+input {
+
+    height: 48px;
+    width: 100%;
+    border: solid 1px #BBBBBB;
+    border-radius: 4px;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 16px;
+    margin-bottom: 24px;
+
+}
+/* Remove setas do input type="number" */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+ 
+
+button {
+
+    background-color: #772FD3;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    border:solid 1px  #BBBBBB;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.coin-container {
+
+    border: solid 1px #772FD3;
+    border-radius: 20px;
+    width: 100%;
+    height: 276px;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    
+}
+
+.imagem-a-ser-convertida {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.imagem-convertida {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.seta {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
