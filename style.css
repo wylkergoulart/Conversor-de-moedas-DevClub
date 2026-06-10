@@ -94,6 +94,16 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    
+    opacity: 0.8;
+    
+}
+
+button:active {
+    opacity: 0.6;
+}
+
 .coin-container {
 
     border: solid 1px #772FD3;
@@ -139,3 +149,4 @@ button {
     margin-top: 12px;
     margin-bottom: 12px;
 }
+
