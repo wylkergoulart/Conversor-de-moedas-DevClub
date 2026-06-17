@@ -21,24 +21,26 @@
  
         <label>
             Converter <b>de:</b>
-            <select>
-                <option value="USD">US$ Dólar Americano</option>
-                <option value="EUR">€ Euro</option>
-                <option value="GBP">£ Libra Esterlina</option>
-                <option value="BTC">₿ Bitcoin</option>
+            <select class="currency-select-to-be-converted">
                 <option value="BRL">R$ Real Brasileiro</option>
+                <option value="USD">US$ Dólar Americano</option>
+                <option value="GBP">£ Libra Esterlina</option>
+                <option value="EUR">€ Euro</option>
+                <option value="BTC">₿ Bitcoin</option>
+              
 
             </select>
         </label>
 
           <label><br>
             Converter <b>para:</b>
-            <select>
+            <select class="currency-select">
                 <option value="USD">US$ Dólar Americano</option>
-                <option value="EUR">€ Euro</option>
-                <option value="GBP">£ Libra Esterlina</option>
-                <option value="BTC">₿ Bitcoin</option>
                 <option value="BRL">R$ Real Brasileiro</option>
+                <option value="GBP">£ Libra Esterlina</option>
+                <option value="EUR">€ Euro</option>
+                <option value="BTC">₿ Bitcoin</option>
+              
             </select>
         </label>
 
@@ -49,19 +51,19 @@
 
         <button class="convert-button">Converter</button>
     
-    <div class="coin-container">
-        <div class="imagem-a-ser-convertida">
-            <img src="./assets/brasil 2.png" alt="Imagem a ser convertida">
-            <p>Real</p>
-            <P>R$ 0,00</P>
+    <div class="currency-container">
+        <div class="moeda-a-ser-convertida">
+            <img class="currency-image-origin" src="./assets/brasil 2.png" alt="Imagem-a-ser-convertida">
+            <p class="currency-name-origin">Real</p>
+            <P id="valor-origem">R$ 0,00</P>
         </div>
 
         <img class="seta" src="./assets/Vector.png" alt="seta">
 
-        <div class="imagem-convertida">
-            <img src="./assets/usa.png" alt="Imagem convertida">
-            <p>Dólar</p>
-            <p>US$ 0,00</p>
+        <div class="moeda-convertida">
+            <img class="currency-image" src="./assets/usa.png" alt="Imagem convertida">
+            <p class="currency-name">Dólar</p>
+            <p id="valor-destino">US$ 0,00</p>
         </div>
     </div>
 </div>

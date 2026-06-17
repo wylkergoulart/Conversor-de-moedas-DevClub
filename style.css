@@ -104,7 +104,7 @@ button:active {
     opacity: 0.6;
 }
 
-.coin-container {
+.currency-container {
 
     border: solid 1px #772FD3;
     border-radius: 20px;
@@ -120,7 +120,7 @@ button:active {
     
 }
 
-.imagem-a-ser-convertida {
+.moeda-a-ser-convertida {
 
     display: flex;
     flex-direction: column;
@@ -133,7 +133,7 @@ button:active {
 
 }
 
-.imagem-convertida {
+.moeda-convertida {
 
     display: flex;
     flex-direction: column;
@@ -148,5 +148,6 @@ button:active {
 .seta {
     margin-top: 12px;
     margin-bottom: 12px;
+    align-items: center;
 }
 
